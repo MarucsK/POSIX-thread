@@ -105,7 +105,7 @@ public:
 };
 
 namespace this_thread{
-    [[nodiscard]] thread::id get_id() noexcept; // 返回值应该被使用，否则警告
+    [[nodiscard]] thread::id get_id() noexcept;
 } // namespace this_thread
 
 class thread::id{
